@@ -13,11 +13,7 @@ module.exports = {
     project: 'tsconfig.json',
     sourceType: 'module',
   },
-  plugins: [
-    'eslint-plugin-import',
-    'eslint-plugin-jsdoc',
-    '@typescript-eslint',
-  ],
+  plugins: ['eslint-plugin-import', '@typescript-eslint'],
   root: true,
   rules: {
     '@typescript-eslint/await-thenable': 'error',
@@ -87,9 +83,6 @@ module.exports = {
     ],
     'id-match': 'error',
     'import/no-deprecated': 'error',
-    'jsdoc/check-alignment': 'error',
-    'jsdoc/check-indentation': 'error',
-    'jsdoc/newline-after-description': 'error',
     'new-parens': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'off',
